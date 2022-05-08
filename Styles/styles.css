@@ -9,7 +9,7 @@
 @import url(./texts/_texts.css);
 @import url(./Components/button.css);
 @import url(./Components/inputs.css);
-@import url(./Components/animaciones/_animacion-hover.css);
+@import url(./Components/animaciones/animacion-hover.css);
 @import url(./Components/mediaqueries/mediaquery-xl.css);
 @import url(./Components/mediaqueries/mediaquery-lg.css);
 @import url(./Components/mediaqueries/mediaquery-md.css);
