@@ -1,0 +1,23 @@
+/* .conteiner-nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.btn-nav {
+    display: none;
+}
+
+@media (max-width: 476px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        margin: 0 0.7rem 20px 0.7rem;
+    }
+    .conteiner-nav {
+        flex-direction: column;
+        display: none;
+    }
+    .btn-nav {
+        display: block;
+    }
+} */

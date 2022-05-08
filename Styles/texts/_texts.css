@@ -1,0 +1,39 @@
+.text-display-2 {
+    font-weight: 720;
+}
+
+.text-display-3 {
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.text-display-4 {
+    font-weight: 500;
+}
+
+.text-display-5 {
+    word-spacing: 4px;
+    word-wrap: 5px;
+}
+
+.txt-subtitle-1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.txt-body-lg-1 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.txt-body-1 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #311a46;
+}
+
+h2 {
+    cursor: default;
+}

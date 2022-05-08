@@ -1,0 +1,34 @@
+button {
+    width: fit-content;
+}
+
+.btn {
+    border-radius: var(--gap-1);
+    padding: var(--gap-1);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    background: rgb(60, 18, 99);
+    background: linear-gradient(302deg, rgba(60, 18, 99, 1) 28%, rgba(83, 33, 130, 1) 79%);
+    color: white;
+    transition: 750ms;
+}
+
+.btn.block {
+    width: 100%;
+}
+
+.btn.btn-icon {
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 3rem;
+    height: 3;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 4px 0px rgba(138, 43, 226, 0.75);
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(138, 43, 226, 0.75);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(138, 43, 226, 0.75);
+}

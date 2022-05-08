@@ -1,0 +1,11 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 0.7rem 0px 0.7rem;
+}
+
+.contact-grid>div:nth-child(2) {
+    width: fit-content;
+    height: fit-content;
+    place-self: center;
+}

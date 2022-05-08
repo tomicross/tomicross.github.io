@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700&display=swap');
+@import url(./Components/jumbotron.css);
+@import url(./Components/nav_bar.css);
+@import url(./Components/aboutme.css);
+@import url(./Components/conteiner_cards.css);
+@import url(./Components/cards-projects.css);
+@import url(./Components/cards-contact.css);
+@import url(./variables.css);
+@import url(./texts/_texts.css);
+@import url(./Components/button.css);
+@import url(./Components/inputs.css);
+@import url(./Components/animaciones/_animacion-hover.css);
+@import url(./Components/mediaqueries/mediaquery-xl.css);
+@import url(./Components/mediaqueries/mediaquery-lg.css);
+@import url(./Components/mediaqueries/mediaquery-md.css);
+@import url(./Components/mediaqueries/mediaquery-sm.css);
+* {
+    font-family: 'Dosis', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-size: 22px;
+    color: var(--color-wh);
+    text-align: center;
+    background: rgb(27, 27, 38);
+    background: linear-gradient(208deg, rgba(27, 27, 38, 1) 23%, rgba(41, 22, 57, 1) 50%, rgba(20, 18, 23, 1) 80%);
+}
+
+.conteiner_page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    color: var(--color-wh);
+    flex: 1;
+}
+
+.footer {
+    background-color: var(--color-bk);
+    padding: 30px;
+    grid-area: footer;
+}
+
+.sub-grid-footer {
+    display: grid;
+    grid-template: "subgrid-left subgrid-center subgrid-right" / 10% auto 10%;
+}
+
+.a-iconos {
+    text-decoration: none;
+}
+
+.subgrid-center-foot {
+    grid-area: subgrid-center;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+.mr-1 {
+    margin-right: 2px;
+}
+
+.row-v-center {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.conteiner {
+    min-height: 80vh;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sdsds {
+    display: flex;
+    transform: translateY(-100%);
+    z-index: -1;
+    position: absolute;
+    transition: 0.5s cubic-bezier(0.76, -0.12, 0.25, 1) out;
+}
