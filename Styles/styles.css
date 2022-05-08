@@ -6,7 +6,7 @@
 @import url(./Components/cards-projects.css);
 @import url(./Components/cards-contact.css);
 @import url(./variables.css);
-@import url(./texts/_texts.css);
+@import url(./texts/texts.css);
 @import url(./Components/button.css);
 @import url(./Components/inputs.css);
 @import url(./Components/animaciones/animacion-hover.css);
